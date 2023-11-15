@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App2() {
   return (
     <div className="App">
       <header className="App-header">
@@ -15,30 +15,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React22242
         </a>
       </header>
     </div>
   );
 }
 
-const submitForm = () =>{
-  console.log("Form Submitted2");
-}
 
-function App3() {
 
-  return (
-    <form>
-      <label>
-        Name:
-        <input type="text" />
-      </label>
-      <input type="submit" value="Submit" onClick={submitForm}/>
-    </form>
-    
-  );
-}
-
-export default App;
-export {App3};
+export default App2;
